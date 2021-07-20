@@ -74,10 +74,10 @@
     D. Distort
     E. Perspective Warp
 
-- [ ] C,D
-- [ ] D,E
-- [x] B,C
-- [ ] C,E
+- [ ] A,C,E
+- [ ] B,D,E
+- [x] B,C,D
+- [ ] A,B,C
 
 [Reference](https://helpx.adobe.com/photoshop/using/free-transformations-images-shapes-paths.html#:~:text=The%20Free%20Transform%20command%20lets,to%20switch%20between%20transformation%20types)
 
@@ -302,8 +302,8 @@
 
 #### Q39. Which filter should you use to create photorealistic blurs?
 
-- [ ] Gaussian Blur
-- [x] Lens Blur
+- [x] Gaussian Blur
+- [ ] Lens Blur
 - [ ] Shape Blur
 - [ ] Surface Blur
 
@@ -422,3 +422,73 @@
 - [ ] In the **Brushes** panel, select a brush and then select **Convert to natural media**.
 - [x] In the **Brushes** panel, select **Legacy Brushes**.
 - [ ] in the **Tool Presents** panel.
+
+#### Q54. Which Photoshop panel contains project elements that can be shared across Adobe applications or bewteen collaborators? 
+
+- [ ] Files
+- [ ] Layer Comps
+- [x] Libraries
+- [ ] Glyphs
+
+#### Q55. Which blend mode is useful for dropping out the darkest areas of the top layer and effectively adding up the image details, like multiple slides being projected on top of each other?
+
+- [ ] Color
+- [ ] Hard light
+- [ ] Screen
+- [x] Multiply
+
+#### Q56. To create a vector-based selection, use the _____ tool.
+
+- [ ] Direct Selection
+- [x] Pen
+- [ ] Pencil
+- [ ] Brush
+
+#### Q57. Which lasso tool creates a selection with multiple points without the need for several clicks by the user?
+
+- [ ] Polygonal Lasso tool
+- [ ] Lasso tool
+- [ ] Freeform Lasso tool
+- [x] Magnetic Lasso tool
+
+#### Q58. Which tools have a content-aware mode?
+
+- [ ] Lasso
+- [x] Patch
+- [ ] Perspective Crop
+- [ ] Marquee
+
+#### Q59. What would you use to create a vector path for the purpose of altering a letter or shape?
+
+- [x] Pen tool
+- [ ] Vanishing Point
+- [ ] Pencil tool
+- [ ] Trace Contour filter
+
+#### Q60. Which tools have a content-aware mode?
+
+- [ ] Lasso
+- [x] Patch
+- [ ] Perspective Crop
+- [ ] Marquee
+
+#### Q61. The options bar, which is normally above the canvas, is not visible. Where would you go to reopen it?
+
+- [ ] View > Show > Show Extra Options
+- [ ] Edit > Toolbar
+- [x] Window > Options
+- [ ] Window > Tool Presets
+
+#### Q62. When the content of a certain layer is very small relative to the overal image dimensions, what can you do to make it easier to see in the Layers panel?
+
+- [ ] On the options bar, click Workspace > Graphic and Web.
+- [x] In the Layers palette, select Panel Options from the Layers panel menu. Then select Thumbnail Contents: Layer Bounds.
+- [ ] Convert the layer to a Smart Object. Then, from the Layers panel menu, select Merge Visible.
+- [ ] From the Layers panel menu, select Merge Visible. 
+
+#### Q63. You are retouching a photo by using the Spot Healing Brush tool on a transparent layer above the image, but you cannot see any visible changes when you click. What is likely the problem?
+
+- [x] The Sample All Layers check box on the toolbar is not selected. 
+- [ ] The Spot Healing Brush tool cannot be used on a transparent layer.
+- [ ] You must first change the blenging mode to Screen.
+- [ ] You need to convert the image to a Smart Object before using this tool.
