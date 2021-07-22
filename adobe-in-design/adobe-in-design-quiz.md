@@ -36,3 +36,10 @@
 - [ ] Right-click the page with the place cursor.
 - [x] Shift-click with the place cursor inside the margin guides.
 - [ ] In the **Pages** panel, click the **New Pages** button with the place cursor.
+
+#### Q6. Which export format lets you gather viewer stats, such as number of views?
+
+- [x] EPUB (Fixed Layout)
+- [ ] Publish Online
+- [ ] PDF (Interactive)
+- [ ] InDesign Snippet
