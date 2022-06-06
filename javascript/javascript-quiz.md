@@ -1008,3 +1008,41 @@ const foo = {
 - [ ] remove foo.name;
 - [ ] del foo.name;
  
+#### Q92. What will this code print?
+
+```js
+const obj = {
+  a: 1,
+  b: 2,
+  c: 3,
+};
+
+const obj2 = {
+  ...obj,
+  a: 0,
+};
+
+console.log(obj2.a, obj2.b);
+```
+
+- [ ] 1 2
+- [ ] Nothing, it will throw an error.
+- [ ] undefined 2
+- [x] 0 2
+
+#### Q93. What is wrog with this code? 
+
+```js
+const foo = {
+  bar() {
+    console.log("Hello, world!");
+  },
+  name: "Albert",
+  age: 26,
+};
+```
+
+- [x] Nothing. There are no errors.
+- [ ] Functions cannot be declared as properties of objects.
+- [ ] Trailing commas are not allowed in JavaScrpit.
+- [ ] The function bar needs to be declared as key/value pair. 
