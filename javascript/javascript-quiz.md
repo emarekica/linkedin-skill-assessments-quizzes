@@ -1046,3 +1046,88 @@ const foo = {
 - [ ] Functions cannot be declared as properties of objects.
 - [ ] Trailing commas are not allowed in JavaScrpit.
 - [ ] The function bar needs to be declared as key/value pair. 
+
+#### Q.94 What line is missing from this code?
+
+```js
+for (var i = 0; i < vowels.length; i++) {
+  console.log(vowels[i]);
+}
+```
+
+- [x] let vowels = "aeiou";
+- [ ] let vowels = Array.of("aeiou");
+- [ ] let vowels = "aeiou".toArray();
+- [ ] let vowels = {"a", "e", "i", "o", "u"};
+
+#### Q95. Which method of a class is called to initialize an object of that class?
+
+- [ ] new()
+- [x] constructor()
+- [ ] create()
+- [ ] init()
+
+#### Q96. What is wrong with this line of code? 
+
+```js
+let result = if (3 == "3") { 42 } else { 0 };
+```
+
+- [ ] The `==` operator is not valid.
+- [ ] New lines are required after curly braces and semicolons.
+- [x] The `if` keyword starts a statement, not an expression.  
+- [ ] You cannot use a `let` keyword in a top-level scope.
+
+#### Q97. What is wrong with this code?
+
+```js
+const baz = () => "Hello, world!";
+
+export const foo = {
+  name: "Albert"
+};
+
+export function bar() {
+  return 42;
+}
+
+export default baz;
+
+export default () => ({});
+```
+
+- [ ] You cannot export variables, you can export only functions.
+- [ ] You can have only one function named export.
+- [x] A module can have only one default export.
+- [ ] You cannot default export an arrow function.
+
+#### Q98. What will this code log to the console?
+
+```js
+const foo = [1,2,3];
+const [n] = foo;
+console.log(n);
+```
+
+- [ ] Nothing - this is not proper JavaScript syntax and will throw an error. 
+- [ ] NaN
+- [ ] undefined
+- [x] 1
+
+#### Q99. Which concept does this code illustrate?
+
+```js
+function makeAdder(x) {
+  return function (y) {
+    return x + y;
+  }
+}
+
+var addFive = makeAdder(5);
+console.log(addFive(3));
+```
+
+- [ ] overloading
+- [ ] overriding
+- [ ] currying
+- [x] closure
