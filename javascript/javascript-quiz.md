@@ -942,3 +942,69 @@ const numbers = [1, 2, 3, 4, 5];
 - [x] const [one, two, three, four, five] = numbers,
 - [ ] const {one, two, three, four, five} = {numbers};
 - [ ] const [one, two, three, four, five] = [numbers];
+
+#### Q87. What is the result of runnng this statement?
+
+```js
+let a = 5;
+
+console.log(a++);
+console.log(++a);
+```
+
+- [ ] 5 6
+- [ ] 6 7
+- [ ] 5 5
+- [x] 5 7
+
+#### Q88. What is the output of this code?
+
+```js
+let rainForests = ["Amazon", "Borneo", "Cerrado", "Congo"];
+
+rainForests.splice(0, 2);
+console.log(rainForests);
+```
+
+- [ ] ["Amazon", "Borneo", "Cerrado"]
+- [x] ["Cerrado", "Congo"]
+- [ ] ["Amazon", "Borneo"]
+- [ ] ["Amazon", "Borneo", "Cerrado", "Congo"]
+
+#### Q89. What statement can be used to skip an iteration in a loop?
+
+- [ ] next
+- [x] continue
+- [ ] break
+- [ ] skip
+
+#### Q90. What will be logged to the console?
+
+```js
+console.log("I");
+
+setTimeout(() => {
+  console.log("love");
+}, 0);
+
+console.log("JavaScript!");
+```
+
+- [ ] The output may change with each execution of the code an cannot be determined.
+- [ ] love I JavaScript!
+- [x] I JavaScript! love
+- [ ] I love JavaScript!
+
+#### Q91. How do you remove the property `name` from this object?
+
+```js
+const foo = {
+  name: "Albert"
+};
+```
+
+- [x] delete foo.name;
+- [ ] delete name from foo;
+- [ ] remove foo.name;
+- [ ] del foo.name;
+ 
