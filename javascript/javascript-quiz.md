@@ -875,3 +875,70 @@ class TaxCalculator {
 - [ ] new TaxCalculator().calculate(\$50);
 - [x] TaxCalculator.calculate(50);
 - [ ] new TaxCalculator().calculate(50);
+
+#### Q82. What is the output of this code? 
+
+```js
+console.log("dirt worm worm dirt dirt worm".split("dirt").length;);
+```
+
+- [ ] 0
+- [ ] 3
+- [x] 4
+- [ ] 5
+
+#### Q83. Which language feature is used as a template for creating objects?
+
+- [ ] generator function
+- [ ] map
+- [ ] proxy
+- [x] class
+
+#### Q84. What will this code print?
+
+```j
+const myFunc = () => {
+  const a = 2;
+  return () => console.log("a is " + a);
+};
+
+const a = 1;
+
+const test = myFunc();
+test();
+```
+
+- [ ] a is 1
+- [ ] a is undefined
+- [x] a is 2
+- [ ] It won't print anything.
+
+#### Q85. What will be logged to the console?
+
+```js
+"use strict";
+
+function logThis() {
+    this.desc = "logger";
+    console.log(this);
+}
+
+new logThis();
+``` 
+
+- [x] {desc: "logger}
+- [ ] function
+- [ ] window
+- [ ] undefined
+
+#### Q86. Which missing line would allow you to create five variables (one, two, three, four, five) that correspond to their numberical values (1,2,3,4,5)?
+
+```js
+const numbers = [1, 2, 3, 4, 5];
+// MISSING LINE
+```
+
+- [ ] const {one, two, three, four, five} = numbers;
+- [x] const [one, two, three, four, five] = numbers,
+- [ ] const {one, two, three, four, five} = {numbers};
+- [ ] const [one, two, three, four, five] = [numbers];
